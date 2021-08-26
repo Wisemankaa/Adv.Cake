@@ -21,7 +21,7 @@ function revertCharacters($incomeStr) {
 
 function my_strrev(string $incomeStr, string $encoding = null): string
 {
-    $res = preg_match('/([^!?.]*)([!?.])/',$incomeStr,$matches);
+    $res = preg_match('/([^!?.,;:]*)([!?.,;:])/',$incomeStr,$matches);
     if ($res) {
       $chars = array_reverse(mb_str_split($matches[1], 1, $encoding ?: mb_internal_encoding()));
       $chars[] = $matches[2];
