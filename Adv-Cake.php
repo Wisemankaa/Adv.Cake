@@ -7,11 +7,11 @@
 <?php
 
 echo revertCharacters("Привет! Давно не виделись.") . '<BR />';
-echo revertCharacters("Привет! ДавНо не виде-лись.") . '<BR />';
-echo revertCharacters("Проверка, киРИлицы! как-То тАк.") . '<BR />';
+echo revertCharacters("Привет! Да45вНо не виде-лись.") . '<BR />';
+echo revertCharacters("Про4верка, киРИлицы! как-То тАк.") . '<BR />';
 
 function revertCharacters (string $incstr) : string {
-  $res = preg_split('/\W/u', $incstr, -1, PREG_SPLIT_OFFSET_CAPTURE);
+  $res = preg_split('/[\W\d]/u', $incstr, -1, PREG_SPLIT_OFFSET_CAPTURE);
   $resstr = '';
   foreach ($res as $value) {
     if ($value[1] == 0) {
