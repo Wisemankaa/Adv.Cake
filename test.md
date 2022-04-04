@@ -4,7 +4,7 @@
 
 
 
-## Full Stack developer
+### Full Stack developer
 
 ---
 
@@ -12,14 +12,15 @@
 ### Contact:
 
 **Phone:** +7-922-125-11-11
+
 **E-mail:** ka@censit.ru
+
 **Telegramm:** KyrovAndrei
 
-======
 
-About myself:
+### About myself:
 
-****
+
 
 ### Skiils:
 
