@@ -18,6 +18,19 @@
 
 ### About myself:
 
+Programming is my hobby, for now.
+
+I have a huge experience in IT (administration and management).
+
+All my life I've been programming on whatever and wherever it was possible, so in general I estimate my programming experience as average.
+
+All the software products were created either for myself, or for very limited use as a commercial product. I myself was the customer, problem setter and programmer of these products.
+
+Therefore I estimate the experience in commercial programming as very small.
+
+I want to become a professional software architect.
+
+For this I lack experience in commercial programming - which is what I'm trying to get now.
 ---
 
 ### Skiils:
@@ -35,6 +48,25 @@
 ---
 
 ### Exampl Code:
+
+Example code from my project:
+
+```
+export const shareCalculation = (sourceList) => {
+  let total = sourceList.reduce(
+    (currVal, element) => currVal * 1 + element.TotalValueRub * 1,
+    0
+  );
+
+  return {
+    total: total,
+    list: sourceList.map((element) => {
+      element.percent = (element.TotalValueRub / total) * 100;
+      return element;
+    }),
+  };
+};
+```
 
 ---
 
