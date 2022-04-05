@@ -2,14 +2,11 @@
 
 # Kyrov Andrew
 
-
-
 ### Full Stack developer
 
 ---
 
-
-### Contact:
+#### Contact:
 
 **Phone:** +7-922-125-11-11
 
@@ -17,12 +14,13 @@
 
 **Telegramm:** KyrovAndrei
 
+---
 
-### About myself:
+#### About myself:
 
+---
 
-
-### Skiils:
+#### Skiils:
 
 - HTML
 - CSS (UlKit3, SASS/SCSS, BEM)
@@ -34,25 +32,25 @@
 - SQL
 - PHP
 
-===
+---
 
-### Exampl Code:
+#### Exampl Code:
 
-===
+---
 
-### Experience:
+#### Experience:
 
-====
+---
 
-### Education:
+#### Education:
 
 1. Perm State Agricultural Institute, Mechanical Engineer
 2. Ural State University of Economics, economics manager
 3. SkillBox (Java, PHP, JS)
 
-===
+---
 
-### Languages:
+#### Languages:
 
 - Russian - native speaker.
 - English - A1
